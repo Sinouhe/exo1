@@ -1,0 +1,23 @@
+{
+  "name": "exo-1",
+  "version": "1.0.0",
+  "description": "exercice number one for Acadomia test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "author": "sinouhe FOUQUEAU",
+  "license": "MIT",
+  "dependencies": {
+    "file-system": "^2.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.7.5",
+    "@babel/preset-env": "^7.7.7",
+    "nodemon": "^2.0.2"
+  }
+}
